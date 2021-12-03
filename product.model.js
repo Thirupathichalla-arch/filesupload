@@ -1,9 +1,9 @@
 const {Schema,model}=require("mongoose");
 
 const productSchema=new Schema({
-    product_name:{required:true,type:String},
-    price:{required:true,type:Number},
-    image_urls:[{type:String,required:true}]
+    first_name:{required:true,type:String},
+    last_name:{required:true,type:String},
+    Profile_pic:[{type:String,required:true}]
 },{
     versionKey:false,
     timestamps:true,
